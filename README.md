@@ -1,5 +1,5 @@
-<img src="./1.png">
-<a href="letswrite-8f2de.firebaseapp.com" ><button style="border-radius: 3px;background-color: blue;">See The Demo</button></a>
+<img src='./1.png' alt="an img"	/>
+[a relative link](letswrite-8f2de.firebaseapp.com)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
