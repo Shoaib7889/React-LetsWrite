@@ -1,4 +1,4 @@
-![an image](<1.jpg>)
+![an image](1.jpg)
 [You can find the DEMO here](https://letswrite-8f2de.firebaseapp.com).
 
 
