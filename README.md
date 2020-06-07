@@ -1,6 +1,5 @@
-<img src='./1.png' alt="an img"	/>
-<img src="./2.png" alt="an img"	/>
-[You can find the DEMO here](letswrite-8f2de.firebaseapp.com).
+![an image](<1.jpg>)
+[You can find the DEMO here](https://letswrite-8f2de.firebaseapp.com).
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
