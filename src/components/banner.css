@@ -1,0 +1,179 @@
+.navbar{
+  display: inline-block;
+  margin-bottom: 20px;
+  color:white;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20%;
+}
+.navbar li{
+  padding: 20px;  
+}
+.line{
+  height:5px;
+  width: 60px;
+  background-color: #FE004D;
+  border-radius: 8%;
+  position: absolute;
+  left: 59.1%;
+  top: 12%;
+}
+
+/*
+
+
+  logo
+
+
+
+ */
+.all-logo{
+  position: absolute;
+  top:25px;
+  left:20%;
+  
+}
+.all-logo .logo{
+  display: inline-block;
+  color:#FE004D;
+}
+.all-logo #comp-name{
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+ /* 
+
+
+
+        Content
+
+
+
+  */
+
+
+
+.content{
+  margin-left: 20%;
+  margin-top: 50px;
+
+}
+.content h1{
+  margin-bottom: 40px;
+  color:white;
+  font-weight: 900;
+}
+.content p{
+  color:white;
+  line-height: 10px;
+  /*font-size: 10px*/
+}
+.content .btn{
+  background-color: #FE004D;
+  margin-right: 20px;
+  margin-top:30px;
+}
+.content .need{
+  background-color: grey;
+  
+}
+
+/* 
+
+
+    Banner 
+
+
+  */
+
+
+
+.banner-back{
+  background: url('../assets/img/desj.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.banner{
+  
+  background-color: rgb(4, 4, 37);
+  opacity: 0.9;
+  /* clip-path: polygon(0 0, 100% 0, 100% 10%, 0% 100%); */
+/*clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);*/
+  height: 560px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+@media (max-width: 900px) and (min-width: 360px) {
+ .line{
+    display: none;
+  } 
+  .navbar{
+    display: inline-block;
+    margin-bottom: 20px;
+    color:white;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /*margin-right: 20%;*/
+  }
+  .navbar li{
+  padding: 9px;  
+  margin-left: 10px;
+}
+.navbar li:first-child{
+  color:#FE004D;
+}
+  .all-logo{
+    position: absolute;
+    top:10%;
+    left:20%;
+    
+  }
+  .content h1{
+  margin-top: 40%;
+  margin-bottom: 40px;
+  color:white;
+  font-weight: 900;
+  font-size: 25px;
+}
+.content p{
+  display: none;
+  /*font-size: 10px*/
+}
+
+
+
+}
+
+@media (max-width: 1250px) {
+ .line{
+    display: none;
+  } 
+  .navbar li:first-child{
+  color:#FE004D;
+}
+.content h1{
+  /*margin-top: 40%;*/
+  margin-bottom: 40px;
+  color:white;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+
+}
