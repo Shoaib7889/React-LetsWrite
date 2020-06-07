@@ -1,5 +1,6 @@
 <img src='./1.png' alt="an img"	/>
-[a relative link](letswrite-8f2de.firebaseapp.com)
+<img src="./2.png" alt="an img"	/>
+[You can find the DEMO here](letswrite-8f2de.firebaseapp.com).
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
